@@ -1,7 +1,7 @@
 <!DOCTYPE <html>
 <html lang="es">
     <head>
-        <title>::CONFIDENX::</title>
+        <title>::LEGALEX::</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--===============================================================================================-->	
@@ -31,7 +31,7 @@
                     </div>
                     <form class="login100-form validate-form" name="login1"  id="login1" action="asset/production/seguridad/autenticacion.php" method="post" autocomplete="off">
                         <span class="login100-form-title">
-                            <b>CONFI<font color= "#000000">DENX</font></b>
+                            <b>LEGA<font color= "#000000">LEX</font></b>
                         </span>
 
                         <div class="wrap-input100 validate-input" data-validate = "Digite usuario" >

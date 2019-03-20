@@ -21,7 +21,7 @@ $user_nombre = $_SESSION['nombre'];
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="images/unipana.jpg"/>
 
-        <title>::CONFIDENX:: </title>
+        <title>::LEGALEX:: </title>
 
         <!-- Bootstrap -->
         <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@ $user_nombre = $_SESSION['nombre'];
                 <div class="col-md-3 left_col">
                     <div class="left_col scroll-view">
                         <div class="navbar nav_title" style="border: 0;">
-                            <a href="index.php" class="site_title"> <img src="images/AxedeBlancoNuevo.png" width="60" height="50"> <span> <font color= "#F98012">CONFI</font>DENX</span></a>
+                            <a href="index.php" class="site_title"> <img src="images/AxedeBlancoNuevo.png" width="60" height="50"> <span> <font color= "#F98012">LEGA</font>LEX</span></a>
                         </div>
 
                         <div class="clearfix"></div>
@@ -86,7 +86,7 @@ $user_nombre = $_SESSION['nombre'];
 
                                         <li><a><i class="fa fa-edit"></i> Acuerdos <span class="fa fa-chevron-down"></span></a>
                                             <ul class="nav child_menu">
-                                                <li><a href="#">Enviar Acuerdos</a></li>
+                                                <li><a href="enviar_acuerdos.php">Enviar Acuerdos</a></li>
                                                 <li><a href="#">Ver Acuerdos</a></li>
                                                 <!--<li><a href="reporte_empresa">Informe Empresa</a></li>-->
                                             </ul>

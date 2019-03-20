@@ -1,14 +1,8 @@
 <?php
-//Conexion a la base de datos
-$conexion = mysqli_connect("localhost", "root", "root");
-if (!(mysqli_select_db($conexion, "sistemas_sispraemu"))) {
-    printf("No se ha podido conectar con la base de datos: " . $data_base . "<br>Error N°: " . mysqli_errno($conexion) . " - " . mysqli_error($conexion));
-}
-?>
-
-<?php
 include("seguridad/connection_db.php");
 include("principal.php");
+
+global $conexion;
 
 $cedu_docente = $_SESSION['identificacion'];
 

@@ -991,7 +991,9 @@ $i=$i+1;
     <div id="response_n"></div>
  <?php   
         } else {
+
         echo '<div style="color:#FF0000;font-weight:bold">Error al subir el archivo, intentelo de nuevo</div>';
+        
     }
  ?>
     <script>

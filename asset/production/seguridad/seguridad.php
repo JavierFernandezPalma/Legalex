@@ -8,6 +8,7 @@ if (!(mysqli_select_db($conexion, "sistemas_sispraemu"))) {
 }
 ?>
 
+
 <?php
 //session_start();
 
@@ -81,7 +82,7 @@ global $conexion;
                 session_destroy();
 
                mysqli_close($conexion);  // cierra la conexion
-               header("Location:../../../practicas/login.php?logout=true");  // envia a la pagina principal
+               header("Location:../../../Legalex/login.php?logout=true");  // envia a la pagina principal
 
                exit;
       }
